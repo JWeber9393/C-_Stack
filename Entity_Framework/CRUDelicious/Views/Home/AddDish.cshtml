@@ -1,0 +1,22 @@
+@using CRUDelicious.Models
+@model Dish
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add a Dish</title>
+</head>
+<body>
+    <form asp-action="Add" asp-controller="Home" method="post">
+        <input asp-for="Name">
+        <input asp-for="Chef">
+        <input asp-for="Tastiness">
+        <input asp-for="Calories">
+        <textarea asp-for="Description" cols="50" rows="5"></textarea>
+        <input type="submit" value="Add Dish">
+    </form>
+</body>
+</html>

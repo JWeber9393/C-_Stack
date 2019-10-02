@@ -1,0 +1,22 @@
+@using CRUDelicious.Models
+@model Dish
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@Model.Name</title>
+</head>
+<body>
+    Dish: @Model.Name
+    Chef: @Model.Chef
+    Tastiness: @Model.Tastiness
+    Calories: @Model.Calories
+    Description: @Model.Description
+
+    <a href="/edit_dish/@Model.DishId">Edit</a>
+    <a href="/delete_dish/@Model.DishId">Delete</a>
+</body>
+</html>

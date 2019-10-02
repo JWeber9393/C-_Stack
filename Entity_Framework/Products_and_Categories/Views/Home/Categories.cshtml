@@ -1,0 +1,35 @@
+@using Products_and_Categories.Models
+@model NewCategoryModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <form asp-action="CreateCategory" asp-controller="Home" method="post">
+                <div class="col-12 col-md-8"><a href="/">Products</a>|Categories</div>
+                <h1>New Category</h1>
+                <div class="form-group">
+
+                    <input class="form-control" asp-for="newCat.name" placeholder="Category Name">  
+                    <span class="text-danger" asp-validation-for="newCat.name"></span>
+                    
+                    <br>
+                    <button type="submit" class="btn btn-primary form-control">Create Category</button>
+
+                </div>
+            </form>    
+        </div>
+    </div>     
+    <div class="row">
+        @{
+            foreach(Category cat in @Model.allCategories){
+                <p><a href="/category/1">@cat.name</a></p>
+            }
+        }
+    </div>
+</div>

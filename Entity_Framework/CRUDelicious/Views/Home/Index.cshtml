@@ -1,0 +1,17 @@
+﻿@using CRUDelicious.Models
+@model Dish
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Welcom to CRUDelicious</h1>
+    <p>Check out some recent dishes!</p>
+    <a asp-action="AddDish">Add Dish</a>
+<ul>
+@foreach(var dish in ViewBag.Dishes)
+{
+    <li><a href="view/@dish.DishId">@dish.Name</a></li>
+}
+</ul>
+</div>

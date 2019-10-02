@@ -1,0 +1,47 @@
+@using Chefs_and_Dishes.Models
+@model Chef
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chefs'N'Dishes</title>
+</head>
+<body>
+
+    <h1>Add a Chef</h1>
+    <a href="/">Home</a>
+
+    <div class="text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">   
+                    <form asp-action="ProcessChef" asp-controller="Home" method="post">
+                        <div class="form-group">
+
+                            <input class="form-control" asp-for="_fname" placeholder="First Name">
+                            <span class="text-danger" asp-validation-for="_fname"></span>
+                            <br>
+
+                            <input class="form-control" asp-for="_lname" placeholder="Last Name">
+                            <span class="text-danger" asp-validation-for="_lname"></span>
+                            <br>
+                            
+
+                            <label asp-for="_birthday"></label>
+                            <input class="form-control" type="date" asp-for="_birthday">
+                            <span class="text-danger" asp-validation-for="_birthday"></span>
+                            
+                            <br>
+                            <button type="submit" class="btn btn-primary form-control">Add Chef</button>
+                        </div>
+                    </form> 
+                </div> 
+            </div>
+        </div>     
+    </div>     
+    <h2 class="text-danger">@ViewBag.ErrorMessage</h2>
+</body>
+</html>

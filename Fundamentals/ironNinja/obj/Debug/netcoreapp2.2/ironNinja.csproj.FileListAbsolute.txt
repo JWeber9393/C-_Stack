@@ -1,0 +1,11 @@
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\obj\Debug\netcoreapp2.2\ironNinja.csprojAssemblyReference.cache
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\obj\Debug\netcoreapp2.2\ironNinja.csproj.CoreCompileInputs.cache
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\obj\Debug\netcoreapp2.2\ironNinja.AssemblyInfoInputs.cache
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\obj\Debug\netcoreapp2.2\ironNinja.AssemblyInfo.cs
+C:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\bin\Debug\netcoreapp2.2\ironNinja.deps.json
+C:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\bin\Debug\netcoreapp2.2\ironNinja.runtimeconfig.json
+C:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\bin\Debug\netcoreapp2.2\ironNinja.runtimeconfig.dev.json
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\bin\Debug\netcoreapp2.2\ironNinja.dll
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\bin\Debug\netcoreapp2.2\ironNinja.pdb
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\obj\Debug\netcoreapp2.2\ironNinja.dll
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\ironNinja\obj\Debug\netcoreapp2.2\ironNinja.pdb

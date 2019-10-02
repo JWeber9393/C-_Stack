@@ -1,0 +1,40 @@
+﻿@using Chefs_and_Dishes.Models
+@model Chef
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chefs'N'Dishes</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 col-md-8">Chefs|<a href="/dishes">Dishes</a></div>
+        <div class="col-6 col-md-4"><a href="/new">Add a Chef</a></div>
+    </div>
+    <h2>Check out our roster of Chefs!</h2>
+    <table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col"># of Dishes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var chef in ViewBag.Chefs){
+        <tr>
+            <td>@chef._fname @chef._lname</td>
+            <td>@chef._age</td>
+            <td>1</td>
+        </tr>}
+    </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\bin\Debug\netcoreapp2.2\WizNinSam.deps.json
+C:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\bin\Debug\netcoreapp2.2\WizNinSam.runtimeconfig.json
+C:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\bin\Debug\netcoreapp2.2\WizNinSam.runtimeconfig.dev.json
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\bin\Debug\netcoreapp2.2\WizNinSam.dll
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\bin\Debug\netcoreapp2.2\WizNinSam.pdb
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\obj\Debug\netcoreapp2.2\WizNinSam.csprojAssemblyReference.cache
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\obj\Debug\netcoreapp2.2\WizNinSam.csproj.CoreCompileInputs.cache
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\obj\Debug\netcoreapp2.2\WizNinSam.AssemblyInfoInputs.cache
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\obj\Debug\netcoreapp2.2\WizNinSam.AssemblyInfo.cs
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\obj\Debug\netcoreapp2.2\WizNinSam.dll
+c:\Users\RedRo\Desktop\Coding Dojo\c#_stack\WizNinSam\obj\Debug\netcoreapp2.2\WizNinSam.pdb

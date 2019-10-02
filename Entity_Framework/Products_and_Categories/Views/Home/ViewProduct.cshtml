@@ -1,0 +1,29 @@
+@using Products_and_Categories.Models
+@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1>@Model.Product.name</h1>
+    <div class="container-fluid">
+        <div class="row">
+        @{foreach(Category cat in @Model.CatsOfProd){
+            <p>@cat.name</p>
+        }}
+        <form class="form-group" asp-action="UpdateProduct" asp-controller="Home" method="POST">
+            <select class="form-control" asp-for="association.CategoryId">
+                @{
+                    foreach(var cat in @Model.notMyCats){
+                    <option value="@cat.CategoryId">@cat.name</option>
+                    }
+                }
+                <input type="hidden" asp-for="association.ProductId" value="@Model.Product.ProductId">
+            </select>
+            <button type="submit">Add Category</button>
+        </form>
+        </div>
+    </div>     
+</div>

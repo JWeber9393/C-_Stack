@@ -1,0 +1,38 @@
+@using Login_and_Registration.Models
+@model RegUser
+
+
+
+
+<h1>Register</h1>
+<form asp-action="Register" asp-controller="Home" method="post">
+        <div class="form-group">
+        <span asp-validation-for="fname"></span>
+        <label asp-for="fname"></label>
+        <input class="form-control" asp-for="fname">
+        
+        
+        <span asp-validation-for="lname"></span>
+        <label asp-for="lname"></label>
+        <input class="form-control" asp-for="lname">
+        
+
+        <span asp-validation-for="email"></span>
+        <label asp-for="email"></label>
+        <input class="form-control" asp-for="email">
+        
+
+        <span asp-validation-for="password"></span>
+        <label asp-for="password"></label>
+        <input class="form-control" asp-for="password">
+        
+        
+        <span asp-validation-for="conf_pw"></span>
+        <label asp-for="conf_pw"></label>
+        <input class="form-control" asp-for="conf_pw">
+        
+        <br>
+        <button type="submit" class="btn btn-primary form-control">Register</button>
+    </div>
+</form>    
+        
